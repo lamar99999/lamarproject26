@@ -1,6 +1,6 @@
 html {
-    --main-color: white;
-    --secondary-color: #333333;
+    --main-color: #333333 ;
+    --secondary-color: white;
 }
 * {
     box-sizing: border-box;
@@ -75,6 +75,50 @@ body {
     width: 100%;
 }
 
+#header .container .menuDiv {
+    position: relative;
+}
+
+#header .container .menuDiv ul {
+    background-color: white;
+    font-size: 20px;
+    list-style: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px gray;
+    position: absolute;
+    right: -15px;
+    top: 12px;
+    display: none;
+}
+
+#header .container .menuDiv ul .divider {
+    height: 1px;
+    background-color: #bab6b6;
+}
+
+#header .container .menuDiv ul li {
+    text-align: center;
+    padding: 10px 35px;
+    color: var(--main-color);
+    transition: 0.3s;
+}
+
+#header .container .menuDiv ul::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: -20px;
+    right: 25px;
+}
+
+#header .menuDiv:hover ul {
+    display: block;
+}
 
 
 
+/* End Header */
