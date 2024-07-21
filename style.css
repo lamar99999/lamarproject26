@@ -162,13 +162,13 @@ body {
     font-size: 80px;
     letter-spacing: 2px;
     margin-bottom: 22px;
-    text-shadow: 0px 0px 4px #ebe9db;
+    text-shadow: 0px 0px 2px #ebe9db;
     
 }
 
 .landing .container .landingText p {
     color: rgb(197, 188, 200);
-    text-shadow: 0px 0px 5px rgb(197, 188, 200);
+    text-shadow: 0px 0px 2px rgb(197, 188, 200);
     font-size: 40px;
     letter-spacing: 3px;
     margin-bottom: 45px;
@@ -176,8 +176,8 @@ body {
 }
 
 .landing .container .landingText button {
-    background-color: #ebe9db;
-    box-shadow: 0px 0px 5px #ebe9db;
+    background-color: #eeecda;
+    box-shadow: 1px 0px 2px #ebe9db;
     color: rgb(176, 163, 180) ;
     font-size: 20px;
     padding: 20px 40px;
@@ -188,7 +188,7 @@ body {
 
 .landing .container .landingText button:hover {
     cursor: pointer;
-    background-color: #dfdccf;
+    background-color: #dad7ca;
 }
 
 #landingDiv .container .centerDiv {
