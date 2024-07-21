@@ -1,6 +1,6 @@
 html {
     --main-color: #333333 ;
-    --secondary-color: white;
+    --secondary-color: rgb(197, 188, 200);
 }
 * {
     box-sizing: border-box;
@@ -142,7 +142,7 @@ body {
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .landing .container {
@@ -159,16 +159,15 @@ body {
 
 .landing  .container .landingText h1 {
     color: #ebe9db;
-    font-size: 80px;
+    font-size: 85px;
     letter-spacing: 2px;
     margin-bottom: 22px;
-    text-shadow: 0px 0px 2px #ebe9db;
-    
+    text-shadow: 0px 0px 8px #ebe9db;
 }
 
 .landing .container .landingText p {
     color: rgb(197, 188, 200);
-    text-shadow: 0px 0px 2px rgb(197, 188, 200);
+    text-shadow: 0px 0px 8px rgb(197, 188, 200);
     font-size: 40px;
     letter-spacing: 3px;
     margin-bottom: 45px;
@@ -176,8 +175,8 @@ body {
 }
 
 .landing .container .landingText button {
-    background-color: #eeecda;
-    box-shadow: 1px 0px 2px #ebe9db;
+    background-color: #ebe9db;
+    box-shadow: 0px 1px 10px #ebe9db;
     color: rgb(176, 163, 180) ;
     font-size: 20px;
     padding: 20px 40px;
@@ -188,7 +187,7 @@ body {
 
 .landing .container .landingText button:hover {
     cursor: pointer;
-    background-color: #dad7ca;
+    background-color: #d6d3c9;
 }
 
 #landingDiv .container .centerDiv {
