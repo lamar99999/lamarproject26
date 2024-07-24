@@ -210,3 +210,28 @@ body {
         font-size: 30px;
     }
 }
+
+/* End landing */
+
+/* Start Services */
+
+#servicesDiv {
+    padding: 100px 0px;
+}
+
+#servicesDiv .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#servicesDiv .container .service {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+#servicesDiv .container .service i {
+    font-size: 60px;
+    color: rgb(197, 170, 208);
+}
