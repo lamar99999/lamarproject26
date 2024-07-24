@@ -233,6 +233,7 @@ body {
 #servicesDiv .container .service i {
     font-size: 60px;
     color: rgb(197, 170, 208);
+    text-shadow: 1px 1px 9px rgb(197, 170, 210);
 }
 
 #servicesDiv .container .service h3 {
