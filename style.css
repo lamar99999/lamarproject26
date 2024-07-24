@@ -228,10 +228,21 @@ body {
 #servicesDiv .container .service {
     width: 300px;
     text-align: center;
-    margin: 10px;
 }
 
 #servicesDiv .container .service i {
     font-size: 60px;
     color: rgb(197, 170, 208);
 }
+
+#servicesDiv .container .service h3 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+#servicesDiv .container .service p {
+    font-size: 20px;
+    color: #000000;
+}
+
+/* end services */
