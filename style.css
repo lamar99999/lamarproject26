@@ -86,6 +86,7 @@ body {
 
 #header .container .menuDiv ul {
     background-color: #ebe9db;
+    width: 180px;
     font-size: 20px;
     list-style: none;
     border-radius: 20px;
@@ -106,6 +107,11 @@ body {
     text-align: center;
     padding: 10px 35px;
     color: var(--main-color);
+    transition: 0.3s;
+}
+
+#header .container .menuDiv ul li:hover {
+    padding-left: 20px;
     transition: 0.3s;
 }
 
