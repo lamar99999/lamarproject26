@@ -38,6 +38,13 @@ body {
     }
 }
 
+.specialHead {
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: normal;
+    color: #c5c5c5;
+}
+
 /* Start Header */
 
 #header {
@@ -246,4 +253,29 @@ body {
     color: #000000;
 }
 
+
 /* end services */
+
+/* Start Stories */
+#storiesDiv .container {
+    text-align: center;
+}
+
+#storiesDiv .container > p {
+    font-size: 26px;
+    margin: 35px 0;
+}
+
+#storiesDiv .contents {
+    display: flex;
+}
+
+#storiesDiv .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+/* End Stories */
