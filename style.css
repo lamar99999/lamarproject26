@@ -224,6 +224,7 @@ body {
 
 #servicesDiv {
     padding: 100px 0px;
+    background-color: #fcfaf1;
 }
 
 #servicesDiv .container {
@@ -235,14 +236,14 @@ body {
 #servicesDiv .container .service {
     width: 300px;
     text-align: center;
-    color: #a8a8a8;
+    color: #9d9d9d;
 }
 
 #servicesDiv .container .service i {
     font-size: 60px;
     margin-bottom: 10px;
-    color: rgb(221, 206, 226);
-    text-shadow: 1px 1px 4px rgb(177, 172, 179);
+    color: rgba(191, 176, 198, 0.96);
+    text-shadow: 1px 1px 10px rgb(193, 179, 197);
 }
 
 #servicesDiv .container .service h3 {
@@ -269,10 +270,6 @@ body {
     text-align: center;
 }
 
-#storiesDiv .container h3 {
-    
-}
-
 #storiesDiv .container > p {
     font-size: 26px;
     margin: 35px 0;
@@ -286,8 +283,44 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  
 }
 
+#storiesDiv .cards .card {
+    width: 270px;
+    box-shadow: 0px 0px 10px #c5c5c5;
+    margin: 8px;
+    border-radius: 25px;
+    background-color: white;
 
+}
+
+.cardImg {
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px;
+    min-height: 100px;
+}
+
+ .cardImg img {
+    width: 55%;
+    height: 50%;
+    margin: 15px;
+}
+
+@media (max-width: 767px) {
+    .stories .container .contents .cards .card {
+        width: 320px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .stories .container .contents .imgDiv {
+        display: flex;
+    }
+}
 
 /* End Stories */
