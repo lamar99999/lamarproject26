@@ -42,7 +42,7 @@ body {
     font-size: 60px;
     font-weight: 900;
     letter-spacing: normal;
-    color: #c5c5c5;
+    color: #a0a0a0;
 }
 
 /* Start Header */
@@ -260,10 +260,16 @@ body {
 /* end services */
 
 /* Start Stories */
+#color {
+    background-image: linear-gradient(#fcfaf1,#c1c1c1,#fcfaf1);
+    padding: 5px;
+    
+}
 
 #storiesDiv {
-    padding: 100px 0;
-    background-color: #F6F6F6;
+    padding: 30px 0;
+    background-color: #fcfaf1;
+
 }
 
 #storiesDiv .container {
@@ -273,6 +279,7 @@ body {
 #storiesDiv .container > p {
     font-size: 26px;
     margin: 35px 0;
+    color: #888888;
 }
 
 #storiesDiv .contents {
@@ -295,6 +302,18 @@ body {
 
 }
 
+.cardDetails {
+    padding: 0px 10px;
+}
+
+.cardDetails p {
+    color: #656565;
+}
+
+.cardDetails h3 {
+    color: #686868;
+}
+
 .cardImg {
     justify-content: center;
     align-items: center;
@@ -312,7 +331,7 @@ body {
 
 @media (max-width: 767px) {
     .stories .container .contents .cards .card {
-        width: 320px;
+        width: 350px;
         margin-bottom: 30px;
     }
 }
