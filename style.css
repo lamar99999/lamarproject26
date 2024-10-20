@@ -267,7 +267,7 @@ body {
 }
 
 #storiesDiv {
-    padding: 30px 0;
+    padding: 25px 0;
     background-color: #fcfaf1;
 
 }
@@ -295,15 +295,14 @@ body {
 
 #storiesDiv .cards .card {
     width: 270px;
-    box-shadow: 0px 0px 10px #c5c5c5;
+    box-shadow: 3px 3px 10px #b5b5b5;
     margin: 8px;
     border-radius: 25px;
-    background-color: white;
-
+    background-color: rgb(244, 244, 244);
 }
 
 .cardDetails {
-    padding: 0px 10px;
+    padding: 0px 8px;
 }
 
 .cardDetails p {
@@ -318,8 +317,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    background-color: white;
-    padding: 10px;
+    background-color: rgb(245, 245, 245);
+    padding: 8px;
     min-height: 100px;
 }
 
