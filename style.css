@@ -342,3 +342,81 @@ body {
 }
 
 /* End Stories */
+/*Start contact*/
+#contactDiv {
+    background-color: #fcfaf1;
+}
+#contactDiv .container {
+    padding: 100px  0;
+ 
+    text-align: center;
+}
+
+#contactDiv .container .contact {
+    display: flex;
+    margin-top: 50px;
+}
+#contactDiv .container .contact .details {
+    margin-right: 50px;
+}
+
+#contactDiv .container .contact .details h3 {
+    font-size: 25px;
+    color: var(--main-color);
+}
+
+#contactDiv .container .contact .details p {
+    font-size: 22px;
+    color: #777;
+    margin-top: 15px;
+    margin-bottom: 44px;
+  
+}
+
+#contactDiv .container .contact .details h3 {
+    color: #1c1c1c;
+}
+
+#contactDiv .container .contact .form input,textarea{
+    background-color: rgb(235, 222, 231);
+    border: none;
+    width: 100%;
+    font-size: 22px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline-color:#8b8b8b ;
+}
+
+#contactDiv .container .contact .form .firstRow {
+    display: flex;
+}
+
+#contactDiv .container .contact .form .firstRow input:nth-child(2){
+    margin-left: 10px;
+}
+
+#contactDiv .container .contact .form textarea{
+    resize: none;
+}
+
+#contactDiv .container .contact .form button {
+    width: 100%;
+    padding: 20px;
+    background-color: #bd91ba;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #3a353a;
+    transition: 2s;
+}
+
+
+#contactDiv .container .contact .form button:hover {
+    cursor: pointer;
+    background-color: #a278a3;
+}
+
+
+
+/*End contact*/
