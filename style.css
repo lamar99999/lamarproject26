@@ -43,6 +43,7 @@ body {
     font-weight: 900;
     letter-spacing: normal;
     color: #a0a0a0;
+    text-shadow: #bfbfbf 2px 1px 6px;
 }
 
 /* Start Header */
@@ -175,7 +176,7 @@ body {
     font-size: 85px;
     letter-spacing: 2px;
     margin-bottom: 22px;
-    text-shadow: 0px 0px 8px #ebe9db;
+    text-shadow: 0px 0px 8px #f7f5ea;
 }
 
 .landing .container .landingText p {
@@ -322,6 +323,10 @@ body {
     min-height: 100px;
 }
 
+.cardImg:hover {
+    
+}
+
  .cardImg img {
     width: 55%;
     height: 50%;
@@ -374,7 +379,7 @@ body {
 }
 
 #contactDiv .container .contact .details h3 {
-    color: #1c1c1c;
+    color: #6b536b;
 }
 
 #contactDiv .container .contact .form input,textarea{
@@ -407,7 +412,8 @@ body {
     border: none;
     border-radius: 10px;
     font-size: 15px;
-    color: #3a353a;
+    color: #faf7ef;
+    text-shadow: #fcf9f1 2px 2px 5px;
     transition: 2s;
 }
 
@@ -416,7 +422,6 @@ body {
     cursor: pointer;
     background-color: #a278a3;
 }
-
 
 
 /*End contact*/
