@@ -159,14 +159,14 @@
                 </div>
                 <div class="form">
                     <div class="firstRow">
-                        <input type="text" placeholder="Your Name">
-                        <input type="email" placeholder="Your Email">
+                        <input  id="userName" type="text" placeholder="Your Name">
+                        <input id="userEmail" type="email" placeholder="Your Email">
                     </div>
 
-                    <input type="text" placeholder="Subject">
-                    <textarea name="" id="" rows="10" placeholder="Type Message Here..."></textarea>
+                    <input id="userSubject" type="text" placeholder="Subject">
+                    <textarea name="" id="userMessage" rows="10" placeholder="Type Message Here..."></textarea>
                     <br><br>
-                    <button>SEND</button>
+                    <button onclick="sendEmail()">SEND</button>
                 </div>
             </div>
         </div>
