@@ -411,7 +411,7 @@ body {
     background-color: #bd91ba;
     border: none;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 20px;
     color: #faf7ef;
     text-shadow: #fcf9f1 2px 2px 5px;
     transition: 2s;
@@ -421,6 +421,8 @@ body {
 #contactDiv .container .contact .form button:hover {
     cursor: pointer;
     background-color: #a278a3;
+    size: 40px;
+    transition: 1.5s;
 }
 
 
